@@ -71,6 +71,10 @@ p {
     margin-top:-20%;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
 /* MAIN PAGE */
 
 .hero {
