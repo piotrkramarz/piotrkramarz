@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+h1 {
+    /*text-align: center;*/
+    font-size: 3.5em;
+}
+
+/* HEADLINE AFTER CLASS */
+
+.headline {
+    border-bottom: 1px solid #aaa;
+    margin: 15px 0;
+    padding: 5px 0;
+    position: relative;
+}
+
+.headline:before,
+.headline:after {
+    content: '';
+    border-right: 20px solid #fff;
+    border-top: 15px solid #aaa;
+    bottom: -15px;
+    position: absolute;
+    left: 25px;
+}
+
+.headline:after {
+    border-top-color: #fff;
+    border-right-color: transparent;
+    bottom: -13px;
+    left: 26px;
+}
+
+p {
+    text-align: justify;
+    font-size: 2em;
+}
+
+.standard {
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* NAVBAR */
+
+.navbar-default {
+    background-color: #5FB564;
+    border-color: #57A55B;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #57A55B;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-img {
+    height: 200%;
+    width: auto;
+    margin-top:-20%;
+}
+
+/* MAIN PAGE */
+
+.hero {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../images/background-image.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-text {
+    color: white;
+    font-weight: 800;
+    opacity: 0.9;
+}
+
+/* BUTTONS */
+
+.btn-primary:hover, .btn-primary:active, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #57A55B;
+    border-color: #57A55B;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #5FB564;
+    border-color: #57A55B;
+}
