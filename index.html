@@ -2,21 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Junior Front-End Developer | Piotr Kramarz</title>
 
     <link href="https://fonts.googleapis.com/css?family=Asap+Condensed:400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/animate.css/3.1.0/animate.css">
 
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
 </head>
-<body>
-    <header>
+<body data-spy="scroll" data-target=".navbar" data-offset="70">
+<header>
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -27,12 +30,11 @@
                     </button>
                     <a class="navbar-brand" href="#intro">
                         <img src="images/logo_biale.png" alt="navbar logo" class="navbar-img">
-
                     </a>
                 </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse" id="navbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#intro">HOME</a></li>
+                        <li><a href="#intro">HOME</a></li>
                         <li><a href="#about-me">ABOUT ME</a></li>
                         <li><a href="#experience">EXPERIENCE</a></li>
                         <li><a href="#education">EDUCATION</a></li>
@@ -46,14 +48,14 @@
     <main>
         <section class="hero" id="intro">
             <div class="hero-content">
-                <h1 class="hero-text">Are you looking for an enthousiastic front-end developer?</h1>
+                <h1 class="section-header hero-text">Are you looking for an enthousiastic front-end developer?</h1>
                 <a href="#contact-me" class="btn btn-primary btn-lg">Contact me!</a>
             </div>
         </section>
         <section class="standard" id="about-me">
             <div class="row">
                 <div class="col-sm-9">
-                <h1 class="headline">about me</h1>
+                <h1 class="section-header">about me</h1>
                 <p>Hello! My name is Piotr, I was born and raised in Gdansk, Poland. I am a husband and father. Graduated in the field of Economics and Public Administration, trying to find myself a new place in IT industry. For my whole life I was looking for a job which will bring me a lot of fun, excitement and satisfaction. And I have recently found out that its all about programming ;)</p>
                 </div>
                 <div class="col-sm-3">
@@ -63,7 +65,7 @@
         </section>
         <section class="standard" id="experience">
             <div>
-                <h1 class="headline">my experience</h1>
+                <h1 class="section-header">my experience</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet ducimus exercitationem iusto maiores necessitatibus nobis sunt ut vel voluptatum? Amet commodi doloremque enim et laboriosam maxime nisi quisquam ullam.10
                 </p>
@@ -71,7 +73,7 @@
         </section>
         <section class="standard" id="education">
             <div>
-                <h1 class="headline">education background</h1>
+                <h1 class="section-header">education background</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet ducimus exercitationem iusto maiores necessitatibus nobis sunt ut vel voluptatum? Amet commodi doloremque enim et laboriosam maxime nisi quisquam ullam.10
                 </p>
@@ -79,7 +81,7 @@
         </section>
         <section class="standard" id="portfolio">
             <div>
-                <h1 class="headline">check my portfolio</h1>
+                <h1 class="section-header">check my portfolio</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet ducimus exercitationem iusto maiores necessitatibus nobis sunt ut vel voluptatum? Amet commodi doloremque enim et laboriosam maxime nisi quisquam ullam.10
                 </p>
@@ -87,7 +89,7 @@
         </section>
         <section class="standard" id="contact-me">
             <div>
-                <h1 class="headline">let's stay in touch!</h1>
+                <h1 class="section-header">let's stay in touch!</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet ducimus exercitationem iusto maiores necessitatibus nobis sunt ut vel voluptatum? Amet commodi doloremque enim et laboriosam maxime nisi quisquam ullam.10
                 </p>
@@ -97,7 +99,8 @@
 
     </main>
 
-    <script src="scripts/smooth-scrolling.js"></script>
+<script src="scripts/smooth-scrolling.js"></script>
+<script src="scripts/dynamic-web-title.js"></script>
 
 </body>
 <footer>
