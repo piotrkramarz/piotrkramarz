@@ -123,6 +123,15 @@ nav.shrink .navbar-brand {
     opacity: 0.9;
 }
 
+footer {
+    background: #ED615E;
+}
+.font-footer {
+    margin-bottom: 0;
+    color: white;
+}
+
+
 /* BUTTONS */
 
 .btn-primary:hover, .btn-primary:active, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
