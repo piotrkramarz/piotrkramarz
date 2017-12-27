@@ -11,6 +11,11 @@ h1 {
     font-size: 3.5em;
 }
 
+p {
+    padding-bottom: 10px;
+    color: #6e6f6e;
+}
+
 /* HEADLINE AFTER CLASS */
 
 
@@ -152,9 +157,13 @@ footer {
     border-radius: 150px;
 }
 
+.image-hero {
+    padding-top: 10px;
+}
+
 /* ICONS */
 
-.fa {
+footer .fa {
     color:white;
     padding-top: 10px;
     padding-right: 10px;
