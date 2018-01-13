@@ -126,6 +126,26 @@ nav.shrink .navbar-brand {
     color: white;
     font-weight: 800;
     opacity: 0.9;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+
+@media (min-width: 767px) {
+    .hero-text {
+        font-size: 3.5em;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-text {
+        font-size: 2.5em;
+    }
 }
 
 footer {
@@ -139,6 +159,17 @@ footer {
 }
 
 /* BUTTONS */
+
+.btn {
+    position: absolute;
+    /*margin: 0;*/
+    /*padding: 0;*/
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
 
 .btn-primary:hover, .btn-primary:active, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
     color: white;
@@ -176,4 +207,16 @@ footer .fa {
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+}
+
+/* WOW EFFECT */
+
+.large-header {
+    position: relative;
+    width: 100%;
+    /*background: #333;*/
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
 }

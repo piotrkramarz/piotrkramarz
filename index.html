@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/animate.css/3.1.0/animate.css">
 
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/5ac6125f05.js"></script>
@@ -47,8 +49,13 @@
     <main>
         <section class="hero" id="intro">
             <div class="hero-content">
-                <h1 class="hero-text">Are you looking for an enthousiastic front-end developer?</h1>
-                <a href="#contact-me" class="btn btn-primary btn-lg">Contact me!</a>
+                    <div class="content">
+                        <div id="large-header" class="large-header">
+                            <canvas id="demo-canvas"></canvas>
+                            <h1 class="hero-text">Are you looking for an enthousiastic front-end developer?</h1>
+                            <a href="#contact-me" class="btn btn-primary btn-lg">Contact me!</a>
+                        </div>
+                    </div>
             </div>
         </section>
         <section class="container standard" id="about-me">
@@ -187,6 +194,7 @@
                         <p><span class="glyphicon glyphicon-phone"></span> +48 697 57 22 57</p>
                         <p><span class="glyphicon glyphicon-envelope"></span> piotr.m.kramarz@gmail.com</p>
                     </div>
+                </div>
             </div>
         </section>
     </main>
@@ -194,6 +202,11 @@
 <script src="scripts/smooth-scrolling.js"></script>
 <script src="scripts/dynamic-web-title.js"></script>
 <script src="scripts/navbar.js"></script>
+
+<script src="scripts/TweenLite.min.js"></script>
+<script src="scripts/EasePack.min.js"></script>
+<script src="scripts/rAF.js"></script>
+<script src="scripts/wow_effect.js"></script>
 
 </body>
 <footer>
